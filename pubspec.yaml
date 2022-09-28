@@ -1,0 +1,32 @@
+name: clima_weatherapp
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  geolocator: ^9.0.1
+  http: ^0.13.5
+  flutter_spinkit: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: DK
+      fonts:
+        - asset: fonts/DKLemonYellowSun.otf
+          weight: 900
